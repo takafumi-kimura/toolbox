@@ -15,3 +15,12 @@ git clone https://github.com/nodenv/nodenv-default-packages.git $(nodenv root)/p
 # 設定ファイル読み込み
 # TODO
 # 設定ファイル -> $(nodenv root)/default-packages
+
+# nodejsインストール
+# ↓インストール可能なリストの更新↓
+# anyenv update
+# ↓最新バージョンの確認↓
+# nodenv install -l
+nodenv install 14.13.1
+# 特定のディレクトリ配下でのみ使いたいバージョンを指定するときは nodedenv local xx.xx.xを使う
+nodenv global 14.13.1
