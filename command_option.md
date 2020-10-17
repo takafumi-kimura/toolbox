@@ -3,4 +3,4 @@
 > mkdir: a/b: No such file or directory
 
 `mkdir -p a/b/c`
-> a, bディレクトリが作られる
+> a, bディレクトリが作られた上で、cディレクトリも作られる
