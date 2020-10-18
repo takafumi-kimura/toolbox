@@ -24,3 +24,5 @@ git clone https://github.com/nodenv/nodenv-default-packages.git $(nodenv root)/p
 nodenv install 14.13.1
 # 特定のディレクトリ配下でのみ使いたいバージョンを指定するときは nodedenv local xx.xx.xを使う
 nodenv global 14.13.1
+exec $SHELL -l
+
