@@ -26,3 +26,12 @@ nodenv install 14.13.1
 nodenv global 14.13.1
 exec $SHELL -l
 
+
+
+
+
+# Reactのシングルページ(本番用)をローカルで起動するのに便利
+yarn global add serve
+
+# 使い方： `serve -s target_directory`
+
